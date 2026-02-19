@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Dimsum Time</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff8f0;
+            text-align: center;
+        }
+
+        header {
+            background: #d35400;
+            color: white;
+            padding: 80px 20px;
+        }
+
+        header h1 {
+            font-size: 45px;
+        }
+
+        header p {
+            font-size: 20px;
+            margin: 15px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 28px;
+            background: white;
+            color: #d35400;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #a04000;
+            color: white;
+        }
+
+        section {
+            padding: 60px 20px;
+        }
+
+        h2 {
+            margin-bottom: 30px;
+            font-size: 30px;
+            color: #d35400;
+        }
+
+        .menu-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            width: 260px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 15px 0 5px;
+        }
+
+        .price {
+            color: #d35400;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .contact p {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Dimsum Time</h1>
+    <p><strong>Dimsum Hangat, Hati Senang!</strong></p>
+
+    <088270813008>
+    <a href="https://wa.me/6281234567890?text=Halo%20Dimsum%20Time,%20saya%20ingin%20pesan%20dimsum."
+       class="btn" target="_blank">
+       Pesan Sekarang
+    </a>
+</header>
+
+<section id="menu">
+    <h2>Menu Favorit Kami</h2>
+
+    <div class="menu-container">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d" alt="Dimsum Ayam">
+            <h3>Dimsum Ayam</h3>
+            <p class="price">Rp 15.000 / porsi</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1559622214-2b7d6b5f8f33" alt="Dimsum Udang">
+            <h3>Dimsum Udang</h3>
+            <p class="price">Rp 18.000 / porsi</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1585032226651-759b368d7246" alt="Dimsum Mozzarella">
+            <h3>Dimsum Mozzarella</h3>
+            <p class="price">Rp 20.000 / porsi</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Hubungi Kami</h2>
+    <p>📷 Instagram: @dimsumtime</p>
+    <p>📱 WhatsApp: 0812-3456-7890</p>
+    <p>📍 Alamat: Jl. Kuliner No. 10, Jakarta</p>
+</section>
+
+<footer>
+    © 2026 Dimsum Time. All rights reserved.
+</footer>
+
+</body>
+</html>
