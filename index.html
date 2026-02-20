@@ -4,100 +4,80 @@
     <meta charset="UTF-8">
     <title>Dimsum Time</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body {
+            margin: 0;
             font-family: Arial, sans-serif;
-            background: #fff8f0;
             text-align: center;
+            background: #fff8f0;
         }
 
         header {
-            background: #d35400;
+            background: #e74c3c;
             color: white;
-            padding: 80px 20px;
+            padding: 60px 20px;
         }
 
-        header h1 {
-            font-size: 45px;
-        }
-
-        header p {
-            font-size: 20px;
-            margin: 15px 0;
+        h1 {
+            margin: 0;
+            font-size: 40px;
         }
 
         .btn {
             display: inline-block;
-            padding: 14px 28px;
+            margin-top: 20px;
+            padding: 12px 25px;
             background: white;
-            color: #d35400;
+            color: #e74c3c;
             text-decoration: none;
-            border-radius: 30px;
+            border-radius: 5px;
             font-weight: bold;
             transition: 0.3s;
         }
 
         .btn:hover {
-            background: #a04000;
+            background: #333;
             color: white;
         }
 
         section {
-            padding: 60px 20px;
-        }
-
-        h2 {
-            margin-bottom: 30px;
-            font-size: 30px;
-            color: #d35400;
+            padding: 50px 20px;
         }
 
         .menu-container {
             display: flex;
-            justify-content: center;
             flex-wrap: wrap;
-            gap: 25px;
+            justify-content: center;
+            gap: 20px;
         }
 
-        .card {
+        .menu-card {
             background: white;
-            width: 260px;
-            border-radius: 15px;
+            width: 220px;
+            border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
             overflow: hidden;
             transition: 0.3s;
         }
 
-        .card:hover {
-            transform: translateY(-8px);
+        .menu-card:hover {
+            transform: translateY(-5px);
         }
 
-        .card img {
+        .menu-card img {
             width: 100%;
-            height: 180px;
+            height: 150px;
             object-fit: cover;
         }
 
-        .card h3 {
-            margin: 15px 0 5px;
+        .menu-card h3 {
+            margin: 10px 0 5px;
         }
 
-        .price {
-            color: #d35400;
-            font-weight: bold;
+        .menu-card p {
             margin-bottom: 15px;
-        }
-
-        .contact p {
-            margin: 10px 0;
-            font-size: 18px;
+            font-weight: bold;
+            color: #e74c3c;
         }
 
         footer {
@@ -105,53 +85,65 @@
             color: white;
             padding: 20px;
         }
+
+        .contact a {
+            display: block;
+            margin: 10px 0;
+            color: #e74c3c;
+            text-decoration: none;
+            font-weight: bold;
+        }
     </style>
 </head>
-
 <body>
 
 <header>
     <h1>Dimsum Time</h1>
-    <p><strong>Dimsum Hangat, Hati Senang!</strong></p>
-
-    <088270813008>
-    <a href="https://s.id/Rx8IP"
-       class="btn" target="_blank">
-       Pesan Sekarang
+    <p>,Dimsum Hangat,Hati Senang!!</p>
+    <a href="https://wa.me/6288270813008?text=Halo,Its%20Dimsum%20Time.Aku%20mau%20pesan%20Dimsum!" class="btn">
+        Pesan Sekarang
     </a>
 </header>
 
-<section id="menu">
-    <h2>Menu Favorit Kami</h2>
+<section>
+    <h2>Menu Kami</h2>
 
     <div class="menu-container">
 
-        <div class="card">
-            <img src="https://s.id/Rx8IP">
+        <div class="menu-card">
+            <img src="https://ibb.co.com/hF9xSk8h">
             <h3>Dimsum Ayam</h3>
-            <p class="price">Rp 18.000 / porsi</p>
+            <p>Rp18.000</p>
         </div>
 
-        <div class="card">
-            <img src="https://i.pinimg.com/1200x/cf/a5/5e/cfa55e0900616bfa9ecb500017f7e291.jpg">
-            <h3>Dimsum Jamur</h3>
-            <p class="price">Rp 18.000 / porsi</p>
+        <div class="menu-card">
+            <img src="https://ibb.co.com/6RnwJNmj">
+            <h3>Dimsum Udang</h3>
+            <p>Rp18.000</p>
         </div>
 
-        <div class="card">
-            <img src="https://i.pinimg.com/736x/eb/72/f2/eb72f26010e2701805fcc3145a1666c9.jpg">
+        <div class="menu-card">
+            <img src="https://ibb.co.com/VYb597tq">
             <h3>Dimsum Mentai</h3>
-            <p class="price">Rp 30.000 / porsi</p>
+            <p>Rp30.000</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="https://ibb.co.com/KcFWwhzT">
+            <h3>Dimsum Mentai Party box</h3>
+            <p>Rp95.000</p>
         </div>
 
     </div>
 </section>
 
-<section class="contact">
+<section>
     <h2>Hubungi Kami</h2>
-    <p>📷 Instagram: @Suci_agllna</p>
-    <p>📱 WhatsApp: 0882-7081-3008</p>
-    <p>📍 Alamat: Jl. Hang ,Tuah,Kel Batu Besar,Kec.Nongsa, Batam</p>
+    <div class="contact">
+        <a href="https://wa.me/6288270813008">📱 WhatsApp</a>
+        <a href="https://instagram.com/@Suci_agllna" target="_blank">📸 Instagram</a>
+        <p>📍 Alamat: Jl. Contoh No.123, Kota Kamu</p>
+    </div>
 </section>
 
 <footer>
@@ -160,6 +152,3 @@
 
 </body>
 </html>
-
-
-
